@@ -1,4 +1,4 @@
-# L2BasicWindTurbineDesign
+# BasicWindTurbineDesign
 MATLAB code for doing basic aero optimisation and structural predictions for turbine blades 
 and then exporting the cross section geometry as a series of .pts files. 
 
