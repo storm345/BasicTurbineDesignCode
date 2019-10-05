@@ -1,0 +1,279 @@
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>  
+ File OPEN error.  Nonexistent file:  ..\foils/SG6043.txt  
+ *** LOAD NOT COMPLETED ***
+
+ XFOIL   c>  
+  F  disk file
+  C  current airfoil                                                  
+
+  Select source of airfoil "0" ( F C ):  
+Enter filename   s>  
+  Select source of airfoil "1" ( F C ):  
+Enter filename   s>  
+ airfoil "0":  SG6043                                          
+ airfoil "1":  SG6043                                          
+
+Specify interpolating fraction  0...1   r>   Max thickness =     0.100150  at x =   0.323
+ Max camber    =     0.055469  at x =   0.497
+
+Enter new airfoil name   s>  
+ Result has been placed in buffer airfoil
+ Execute PCOP or PANE to set new current airfoil
+
+ XFOIL   c>  
+ Sharp trailing edge
+
+ Paneling parameters used...
+   Number of panel nodes       160
+   Panel bunching parameter    1.000
+   TE/LE panel density ratio   0.150
+   Refined-area/LE panel density ratio    0.200
+   Top    side refined area x/c limits  1.000 1.000
+   Bottom side refined area x/c limits  1.000 1.000
+
+ XFOIL   c>  
+ XFOIL   c>  
+ XFOIL   c>  
+.OPERi   c>  
+.OPERi   c>  
+ Sonic Cp =   -748.23      Sonic Q/Qinf =    30.432
+
+
+.OPERi   c>  
+ M  =    0.0300
+ Re =     45000
+
+.OPERv   c>  
+ Polar  1 newly created for accumulation
+ Airfoil archived with polar: BlendedAirfoil                                  
+
+Enter  polar save filename  OR  <return> for no file   s>  
+ Polar save file will NOT be written
+
+Enter  polar dump filename  OR  <return> for no file   s>  
+ Polar dump file will NOT be written
+
+ Polar accumulation enabled
+
+.OPERva   c>   Calculating unit vorticity distributions ...
+ Calculating wake trajectory ...
+ Calculating source influence matrix ...
+
+ Solving BL system ...
+
+ Initializing BL ...
+    side            1  ...
+ MRCHUE: Inverse mode at  61     Hk =   3.959
+ MRCHUE: Inverse mode at  62     Hk =   4.144
+ MRCHUE: Inverse mode at  63     Hk =   4.327
+ MRCHUE: Inverse mode at  64     Hk =   4.507
+ MRCHUE: Inverse mode at  65     Hk =   4.685
+ MRCHUE: Inverse mode at  66     Hk =   4.862
+ MRCHUE: Inverse mode at  67     Hk =   5.037
+ MRCHUE: Inverse mode at  68     Hk =   5.210
+ MRCHUE: Inverse mode at  69     Hk =   5.381
+ MRCHUE: Inverse mode at  70     Hk =   5.550
+ MRCHUE: Inverse mode at  71     Hk =   5.717
+ MRCHUE: Convergence failed at  72  side 1    Res =  0.2068E+01
+ MRCHUE: Inverse mode at  73     Hk =   5.880
+ MRCHUE: Inverse mode at  74     Hk =   6.039
+ MRCHUE: Inverse mode at  75     Hk =   6.196
+ MRCHUE: Inverse mode at  76     Hk =   6.349
+ MRCHUE: Inverse mode at  77     Hk =   6.497
+ MRCHUE: Inverse mode at  78     Hk =   6.637
+ MRCHUE: Inverse mode at  79     Hk =   6.769
+ MRCHUE: Inverse mode at  80     Hk =   6.894
+ MRCHUE: Inverse mode at  81     Hk =   7.013
+ MRCHUE: Inverse mode at  82     Hk =   7.123
+ MRCHUE: Inverse mode at  83     Hk =   7.217
+ MRCHUE: Inverse mode at  84     Hk =   7.270
+    side            2  ...
+ MRCHUE: Inverse mode at  49     Hk =   3.800
+ MRCHUE: Inverse mode at  50     Hk =   3.966
+ MRCHUE: Inverse mode at  51     Hk =   4.129
+ MRCHUE: Inverse mode at  52     Hk =   4.287
+ MRCHUE: Inverse mode at  53     Hk =   4.443
+ MRCHUE: Inverse mode at  54     Hk =   4.596
+ MRCHUE: Inverse mode at  55     Hk =   4.747
+ MRCHUE: Inverse mode at  56     Hk =   4.895
+ MRCHUE: Inverse mode at  57     Hk =   5.041
+ MRCHUE: Inverse mode at  58     Hk =   5.184
+ MRCHUE: Inverse mode at  59     Hk =   5.325
+ MRCHUE: Inverse mode at  60     Hk =   5.464
+ MRCHUE: Inverse mode at  61     Hk =   5.602
+ MRCHUE: Inverse mode at  62     Hk =   5.737
+ MRCHUE: Inverse mode at  63     Hk =   5.871
+ MRCHUE: Inverse mode at  64     Hk =   6.002
+ MRCHUE: Inverse mode at  65     Hk =   6.132
+ MRCHUE: Inverse mode at  66     Hk =   6.260
+ MRCHUE: Inverse mode at  67     Hk =   6.387
+ MRCHUE: Inverse mode at  68     Hk =   6.511
+ MRCHUE: Inverse mode at  69     Hk =   6.633
+ MRCHUE: Inverse mode at  70     Hk =   6.753
+ MRCHUE: Inverse mode at  71     Hk =   6.870
+ MRCHUE: Inverse mode at  72     Hk =   6.983
+ MRCHUE: Inverse mode at  73     Hk =   7.091
+ MRCHUE: Inverse mode at  74     Hk =   7.192
+ MRCHUE: Inverse mode at  75     Hk =   7.285
+ MRCHUE: Inverse mode at  76     Hk =   7.368
+ MRCHUE: Inverse mode at  77     Hk =   7.440
+ MRCHUE: Inverse mode at  78     Hk =   7.482
+ MRCHUE: Inverse mode at  80     Hk =   5.397
+ MRCHUE: Inverse mode at  81     Hk =   4.397
+ MRCHUE: Inverse mode at  82     Hk =   3.793
+ MRCHUE: Inverse mode at  83     Hk =   3.384
+ MRCHUE: Inverse mode at  84     Hk =   3.084
+
+ Side 1 forced transition at x/c =  1.0000   84
+ Side 2 forced transition at x/c =  1.0000   78
+ idif Ue xi dudx           1  0.30342296      3.17907333E-03   95.443840    
+ Uenew xinew           2  0.12580425      1.31809711E-03
+
+   1   rms: 0.1510E+01   max: -.3897E+01   D at   78  2   RLX: 0.128
+       a =  0.000      CL =  0.7181
+      Cm = -0.2040     CD =  0.00885   =>   CDf =  0.01069    CDp = -0.00184
+
+ Side 1 forced transition at x/c =  1.0000   83
+ Side 2 forced transition at x/c =  1.0000   79
+ idif Ue xi dudx           1  0.18512741      2.00402737E-03   92.377686    
+ Uenew xinew           2  8.94196983E-03  9.67979431E-05
+
+   2   rms: 0.9163E+00   max: -.7610E+01   C at   79  2   RLX: 0.066
+       a =  0.000      CL =  0.6549
+      Cm = -0.1919     CD =  0.00889   =>   CDf =  0.01012    CDp = -0.00123
+
+ Side 1 forced transition at x/c =  1.0000   82
+ Side 2 forced transition at x/c =  1.0000   80
+
+   3   rms: 0.8047E+00   max: 0.8465E+01   T at    2  2   RLX: 0.092
+       a =  0.000      CL =  0.5979
+      Cm = -0.1801     CD =  0.00956   =>   CDf =  0.00988    CDp = -0.00032
+
+ Side 1 forced transition at x/c =  1.0000   82
+ Side 2 forced transition at x/c =  1.0000   80
+
+   4   rms: 0.5409E+00   max: -.4117E+01   C at   80  2   RLX: 0.121
+       a =  0.000      CL =  0.5412
+      Cm = -0.1682     CD =  0.01066   =>   CDf =  0.00976    CDp =  0.00090
+
+ Side 1 forced transition at x/c =  1.0000   82
+ Side 2 forced transition at x/c =  1.0000   80
+ idif Ue xi dudx           1  0.16390175      2.07054615E-03   79.158699    
+ Uenew xinew           2  7.89831020E-03  9.97781754E-05
+
+   5   rms: 0.4453E+00   max: -.3148E+01   C at   80  2   RLX: 0.159
+       a =  0.000      CL =  0.4819
+      Cm = -0.1557     CD =  0.01228   =>   CDf =  0.00975    CDp =  0.00253
+
+ Side 1 forced transition at x/c =  1.0000   81
+ Side 2 forced transition at x/c =  1.0000   81
+
+   6   rms: 0.4111E+00   max: 0.2860E+01   T at    2  2   RLX: 0.216
+       a =  0.000      CL =  0.4156
+      Cm = -0.1420     CD =  0.01467   =>   CDf =  0.00936    CDp =  0.00532
+
+ Side 1 forced transition at x/c =  1.0000   81
+ Side 2 forced transition at x/c =  1.0000   81
+
+   7   rms: 0.3427E+00   max: -.1564E+01   C at   81  2   RLX: 0.320
+       a =  0.000      CL =  0.3348
+      Cm = -0.1259     CD =  0.01850   =>   CDf =  0.00899    CDp =  0.00951
+
+ Side 1 forced transition at x/c =  1.0000   81
+ Side 2 forced transition at x/c =  1.0000   81
+ idif Ue xi dudx           1  0.18894744      2.80976295E-03   67.246758    
+ Uenew xinew           2  4.94534075E-02  7.35402107E-04
+
+   8   rms: 0.6829E+00   max: 0.2372E+01   n at   65  2   RLX: 0.490
+       a =  0.000      CL =  0.2246
+      Cm = -0.1066     CD =  0.02420   =>   CDf =  0.00850    CDp =  0.01570
+
+ Side 1 forced transition at x/c =  1.0000   80
+ Side 2  free  transition at x/c =  0.2831   37
+
+   9   rms: 0.3371E+00   max: 0.2640E+01   T at   37  2   RLX: 0.362
+       a =  0.000      CL =  0.2006
+      Cm = -0.1075     CD =  0.03305   =>   CDf =  0.00971    CDp =  0.02334
+
+ Side 1 forced transition at x/c =  1.0000   80
+ Side 2  free  transition at x/c =  0.2334   34
+
+  10   rms: 0.2088E+00   max: 0.2322E+01   T at   34  2   RLX: 0.431
+       a =  0.000      CL =  0.1727
+      Cm = -0.1021     CD =  0.03732   =>   CDf =  0.00982    CDp =  0.02751
+ VISCAL:  Convergence failed
+
+.OPERva   c>  
+.OPERva   c>  
+.OPERva   c>  
+        airfoil                    Re           Mach       Ncrit  XtripT  XtripB     file
+       ------------------------  ------------  ----------  -----  ------  ------    -------------------
+ >  1  BlendedAirfoil            4.500e4       0.030        9.00   1.000   1.000    
+
+Enter polar output filename   s>  
+.OPERva   c>  
+ ==============================================================
+ Polar  1
+  
+       XFOIL         Version 6.99
+  
+ Calculated polar for: BlendedAirfoil                                  
+  
+ 1 1 Reynolds number fixed          Mach number fixed         
+  
+ xtrf =   1.000 (top)        1.000 (bottom)  
+ Mach =   0.030     Re =     0.045 e 6     Ncrit =   9.000
+  
+   alpha    CL        CD       CDp       CM     Top_Xtr  Bot_Xtr
+  ------ -------- --------- --------- -------- -------- --------
+
+.OPERva   c>  
+ XFOIL   c>  

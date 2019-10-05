@@ -1,0 +1,26 @@
+load ..\foils/SG6043.txt
+INTE
+F
+foils/SG6043.txt
+F
+foils/SG6043.txt
+0
+BlendedAirfoil
+PANE
+
+
+oper iter 2500
+re 45000
+mach 0.03
+visc
+pacc
+
+
+alfa 0
+dump xfoil_a00.000_dump.dat
+cpwr xfoil_a00.000_cpwr.dat
+pwrt
+xfoil_pwrt.dat
+plis
+
+quit
